@@ -1,4 +1,4 @@
-# Bullseye's Secret Identity
+# Bullseye's Sekret Identity
 
 **A** collection of RPC like endpoints to ship shipments.
 
