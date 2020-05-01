@@ -9,6 +9,11 @@ get /status
 post /shipments
 post /tracks
 
+@tables
+shipments
+  shipmentId *String
+  createdAt **Number
+
 # @aws
 # profile default
 # region us-west-1
