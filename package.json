@@ -4,7 +4,7 @@
   "description": "A bullseye with semicolons",
   "main": "index.js",
   "scripts": {
-    "test": "tape src/**/*.test.js"
+    "test": "tape src/**/__tests__/*.test.js"
   },
   "author": "",
   "license": "ISC",
