@@ -1,5 +1,7 @@
 @aws
 runtime nodejs12.x
+profile gloss-root
+region us-east-1
 
 @app
 dex
@@ -12,8 +14,3 @@ post /tracks
 @tables
 shipments
   shipmentId *String
-  createdAt **Number
-
-# @aws
-# profile default
-# region us-west-1
