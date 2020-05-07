@@ -6,6 +6,15 @@
 
 **An Experiment** that could aim at relieving a somewhat conveluted existing current application.
 
+## Getting Started
+
+The following small steps are required to get up and running.
+
+1. Install a Node version > 12.16 (.nvmrc included)
+1. Build and install [Rome][rome] to use the build chain
+1. Run `npm i` to install dependencies
+1. Run `npm t` to run tests (all should pass)
+
 ## Inspiration
 
 The following talk about ['The Art of Destroying Software'][dvideo].
@@ -25,3 +34,4 @@ A general ethos for the project.
 
 
 [dvideo]: https://vimeo.com/108441214
+[rome]: https://romejs.dev/docs/introduction/installation
