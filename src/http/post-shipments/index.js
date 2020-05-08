@@ -6,10 +6,9 @@ exports.handler = async function http (req) {
 
   await db.shipments.put({
     shipmentId: body.number,
+    type: "Shipment",
     createdAt: new Date().toISOString(),
-    data: {
-      ...body
-    }
+    ...body
   })
 
   return {

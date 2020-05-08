@@ -13,7 +13,9 @@ post /tracks
 
 @tables
 shipments
-  shipmentId *String
+  type *String
+  shipmentId **String
+
 
 @events
   shipment-received

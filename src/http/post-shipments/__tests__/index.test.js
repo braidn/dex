@@ -32,6 +32,7 @@ test('POST /shipments data', async t => {
 
   result = await db.shipments.get({
     shipmentId: data.number,
+    type: "Shipment"
   })
   t.ok(result, "Shipment Persisted Successfully")
 })
