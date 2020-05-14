@@ -3,7 +3,7 @@
 [file-fix]
 
 command=
-command:javascript=rome lint --save $(VIM_FILEPATH)
+command:javascript=npx prettier --write $(VIM_FILEPATH)
 cwd=<root>
 output=quickfix
 errorformat=%f:%l:%m
