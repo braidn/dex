@@ -16,6 +16,5 @@ shipments
   type *String
   shipmentId **String
 
-
 @events
-  shipment-received
+shipment-received
