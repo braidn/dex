@@ -1,0 +1,7 @@
+{
+  "name": "testdata-post-notes",
+  "dependencies": {
+    "@architect/functions": "^3.10.1",
+    "got": "^11.1.4"
+  }
+}
